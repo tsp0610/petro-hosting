@@ -17,7 +17,7 @@ rm -rf "$TEMP_REPO"
 # ------------------------------
 # Clone repository temporarily
 # ------------------------------
-git clone https://github.com/nobita586/ak-nobita-bot.git "$TEMP_REPO"
+git clone https://github.com/tsp0610/boooooto.git "$TEMP_REPO"
 
 # ------------------------------
 # Check if nebula.blueprint exists
