@@ -101,13 +101,13 @@ while true; do
     show_menu
     read -r choice
     case $choice in
-        1) run_remote_script "https://raw.githubusercontent.com/nobita586/Nobita-Hosting/main/cd/panel.sh" ;;
-        2) run_remote_script "https://raw.githubusercontent.com/nobita586/Nobita-Hosting/main/cd/wing.sh" ;;
-        3) run_remote_script "https://raw.githubusercontent.com/nobita586/Nobita-Hosting/main/cd/up.sh" ;;
-        4) run_remote_script "https://raw.githubusercontent.com/nobita586/Nobita-Hosting/main/cd/uninstalll.sh" ;;
-        5) run_remote_script "https://raw.githubusercontent.com/nobita586/Nobita-Hosting/main/cd/blueprint.sh" ;;
-        6) run_remote_script "https://raw.githubusercontent.com/nobita586/Nobita-Hosting/main/cd/cloudflare.sh" ;;
-        7) run_remote_script "https://raw.githubusercontent.com/nobita586/Nobita-Hosting/main/cd/th.sh" ;;
+        1) run_remote_script "https://raw.githubusercontent.com/tsp0610/petro-hosting/main/cd/panel.sh" ;;
+        2) run_remote_script "https://raw.githubusercontent.com/tsp0610/petro-hosting/main/cd/wing.sh" ;;
+        3) run_remote_script "https://raw.githubusercontent.com/tsp0610/petro-hosting/main/cd/up.sh" ;;
+        4) run_remote_script "https://raw.githubusercontent.com/tsp0610/petro-hosting/main/cd/uninstalll.sh" ;;
+        5) run_remote_script "https://raw.githubusercontent.com/tsp0610/petro-hosting/main/cd/blueprint.sh" ;;
+        6) run_remote_script "https://raw.githubusercontent.com/tsp0610/petro-hosting/main/cd/cloudflare.sh" ;;
+        7) run_remote_script "https://raw.githubusercontent.com/tsp0610/petro-hosting/main/cd/th.sh" ;;
         9) system_info ;;
         10) echo "Exiting..."; exit 0 ;;
         *) echo -e "${RED}${BOLD}Invalid option!${RESET}"; read -p "Press Enter to continue..." ;;
